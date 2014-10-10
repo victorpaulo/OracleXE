@@ -1,0 +1,3 @@
+# ORACLE XE
+# Download and put the binaries below in this folder.
+oracle-xe-11.2.0-1.0.x86_64.rpm.zip
