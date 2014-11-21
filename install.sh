@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 echo "############### Starting the Installation ####################"
 
 echo "Unzip the binary file of Oracle XE"
@@ -27,3 +34,7 @@ echo "################ FIM INSTALACAO ################"
 # /etc/init.d/oracle-xe stop
 ############ Desinstalando Oracle XE
 # rpm -e oracle-xe
+
+#Connecting at Oracle DB as sysdba
+# [set|export] ORACLE_SID=XE
+# $ sqlplus "/ as sysdba"
